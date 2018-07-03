@@ -1,19 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>LIUYUE</title>
-</head>
-<body>
+	<head>
+		<meta charset="{CHARSET}">
+		<title>LIUYUE</title>
+		<style>
+			*{
+				margin:0;padding: 0;list-style: none;text-decoration: none;
+			}
+			.header{
+		
+				width:80%;
+				height: 1000px;
+				margin: auto;
+				background:#fffsss;
+			}
+			.logo{
+				float:left;
+			}
+			.header::after{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			
+			.nav ul li{
+				float:left;
+				width: 10%;
+				line-height:150px;
+				text-align: center;
+			}.nav ul li a{
+				color:#000;
+			}
+			.nav ul::after{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.banner{
+				width: 100%;
+				height: 500px;
+				background: #000;
+				
+			}
+			.banner h1{
+				color:#fff;
+				text-align: center;
+				font-size: 96px;
+				line-height: 300px;
+			}
+			.banner small{
+				color:#fff;
+			margin-left: 150px;
+				font-size: 24px;
+			}
+		</style>
+	</head>
+	<body >
+	<div class="header">
+			<div class="logo">
+				<img src="1.jpg" alt="" />
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">关于小吕</a></li>
+					<li><a href="">有一个故事</a></li>
+					<p>
 
-
-	<p> >我知岁月有荣枯 人心也难测 可你周围尽是我的温柔与深情 我们一定会爱的风生水起</p>
-	
-
-
-
-	
-	
-
-</body>
+				</ul>
+			</div>
+			<div class="banner">
+				<h1>刘越</h1>
+				<small>我知岁月有荣枯 人心也难测 可你周围尽是我的温柔与深情 我们一定会爱的风生水起</small>
+			</div>
+		</div>
+	</body>
 </html>
